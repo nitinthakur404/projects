@@ -1,0 +1,226 @@
+/* <-- background: #0f0c29;  /* fallback for old browsers */
+/* background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ --> */
+
+/*background: #3C3B3F;  /* fallback for old browsers */
+/*background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
+/*background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+.Aboutus {
+    /* background: #2C3E50; */
+    /* background: linear-gradient(to right, #4CA1AF, #2C3E50); */
+    height: 80rem;
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 159%;
+    left: 25px;
+    width: 97%;
+}
+
+.tagline {
+    font-size: 51px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 5%;
+    left: 38%;
+    color: black;
+}
+
+.tagline_para p {
+    color: black;
+    left: 10px;
+    display: flex;
+    position: absolute;
+    left: 35%;
+    top: 10%;
+    text-align: center;
+}
+
+.Enquire button {
+    display: flex;
+    position: absolute;
+    left: 47%;
+    top: 14%;
+    justify-content: center;
+    align-items: center;
+    height: 33px;
+    width: 123px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: progress;
+}
+
+.img_team img {
+    width: 95%;
+    position: absolute;
+    left: 2rem;
+    top: 19%;
+    height: 44%;
+}
+
+.first_para,
+.second_para {
+    color: black;
+    display: flex;
+    position: absolute;
+    top: 26%;
+    z-index: 1;
+    text-align: center;
+    left: 32%;
+    font-size: 26px;
+}
+
+.second_para {
+    top: 39%;
+    font-size: 13px;
+    left: 36%;
+}
+
+
+.OurTeam button {
+    display: flex;
+    position: absolute;
+    left: 47%;
+    top: 47%;
+    justify-content: center;
+    align-items: center;
+    height: 33px;
+    width: 123px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: progress;
+
+}
+
+.our_process p {
+    color: black;
+    position: relative;
+    left: 44.1%;
+    font-size: 45px;
+    top: 13px;
+}
+
+.About_second {
+    display: flex;
+    color: black;
+    flex-direction: column;
+    position: absolute;
+    top: 64%;
+    left: 32px;
+    height: 50rem;
+    width: 95%;
+    border: 2px solid transparent;
+}
+
+.ourcard {
+    display: flex;
+}
+
+.process_card {
+    height: 300px;
+    position: relative;
+    left: 36px;
+    top: 42%;
+    width: 250px;
+    background-color: white;
+    border: 2px solid white;
+    margin: 3px 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 8px 10px 15px black;
+    border-radius: 25px;
+}
+
+.About_Second_para P {
+    color: black;
+    display: flex;
+    left: 23.1%;
+    position: absolute;
+    top: 10.3%;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+.process_round {
+    height: 93px;
+    width: 116.6px;
+    background-color: black;
+    border-radius: 25%;
+    justify-content: center;
+    z-index: 1;
+    position: absolute;
+    left: 67.2px;
+    top: 17px;
+    border: 4px solid whitesmoke;
+    box-shadow: 6px 6px 0px grey;
+}
+
+.icon svg {
+    position: absolute;
+    left: 9px;
+    top: 7.2px;
+    height: 67px;
+    width: 101px;
+    color: white;
+}
+
+.process_squre {
+    position: absolute;
+    height: 100px;
+    width: 230px;
+    background-color: black;
+    top: 20%;
+    left: 7.5px;
+    z-index: 0;
+}
+
+.process_squre p {
+    position: relative;
+    /* left: 67px; */
+    top: 59px;
+    text-align: center;
+    font-size: 22px;
+    color: white
+}
+
+.projectulli ul {
+
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    /* text-align: center; */
+    top: 175px;
+    left: 33px;
+    font-size: 18px;
+}
+
+.projectulli li {
+    color: black;
+    list-style: none;
+    font-size: 19px;
+}
+
+.projectulli {
+    color: red;
+}
+
+.learn-more {
+    display: flex;
+    position: absolute;
+    left: 47%;
+    top: 71%;
+    justify-content: center;
+    align-items: center;
+    height: 33px;
+    width: 123px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: progress;
+
+}
