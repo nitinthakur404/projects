@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    padding: 1.2% 0.0%;
+    background-color: #c5c6c7;
+    height: 80rem;
+    width: 84rem;
+}
+
+.Menubar {
+
+    display: flex;
+    height: 3rem;
+    flex-direction: row;
+    width: 60rem;
+    background: linear-gradient(to left bottom, #FF6CAB, #2E8DE1);
+    align-items: center;
+    /* flex-wrap: nowrap; */
+    justify-content: flex-end
+}
+
+.buttonclick {
+    outline: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 84px;
+    background-color: transparent;
+    color: white;
+    font-size: 15.3px;
+    margin-right: 305px;
+}
+
+.inputbox {
+    color: black;
+    padding: 2px 3px;
+    margin: 4px 33px;
+    display: flex;
+    align-items: center;
+    height: 2.2rem;
+    width: 15.6rem;
+    border: 0.1px solid transparent;
+    border-radius: 3px;
+    font-size: 15px;
+    background-color: transparent;
+    box-sizing: border-box;
+    outline: none;
+    border-bottom-color: red;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.border-gradient {
+    display: flex;
+    height: auto;
+    width: 60rem;
+    background-color: linear-gradient(to left bottom, #FF6CAB, #2E8DE1);
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+
+.inner-box {
+    display: flex;
+    height: 99px;
+    width: 162px;
+    flex-direction: row;
+    background-color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 15px 10px;
+    border: 0px solid;
+    border-width: 1px;
+    border-image-slice: 1;
+
+    border-image-source: linear-gradient(to right, rgb(84, 218, 72), rgb(19, 22, 231));
+    text-transform: capitalize;
+    transition-property: background-color,border-image-source;
+    transition-duration: 1s;
+    box-shadow: 0 0 0 0;
+
+
+}
+
+.inner-box:hover {
+    background-color: lightgrey;
+    border-image-source: linear-gradient(to right bottom, rgb(11, 8, 231), rgb(84, 218, 72));
+}
